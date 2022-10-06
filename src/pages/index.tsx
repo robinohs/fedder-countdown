@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-black h-screen w-screen">
+      <main className="bg-black h-screen w-screen flex flex-col justify-evenly">
         <CountdownUntilPlay />
         <DeptCounter />
       </main>
