@@ -15,7 +15,7 @@ const CountdownUntilPlay = () => {
 
     const calculateTimeLeft = (): number => {
         const now = new Date();
-        const end = new Date("01/07/2023");
+        const end = new Date("01/01/2024");
         return Math.max(0, Math.floor((+end - +now) / 1000));
       }
 
